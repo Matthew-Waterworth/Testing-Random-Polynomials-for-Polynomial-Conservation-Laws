@@ -2,7 +2,7 @@
 
 This algorithm was developed as the output of my internship during the summer of 2023, supervised by Dr. Rahkooy, University of Oxford. 
 
-Written in Python, depending primarily on SymPy, this algorithm finds the syzygy module bases of an inputted ideal (which comes from ODEbase), generates a random linear combination of the syzygies, checks if the curl of the new syzygy module bases is equal to zero, if it is equal to zero then this is syzygy is integrated. The final integration is then called the conservation law (sometimes known as first integrals).
+Written in Python, depending primarily on SymPy, this algorithm finds the syzygy module bases of an inputted ideal (which comes from the models on ODEbase), generates a random linear combination of the syzygies, checks if the curl of the new syzygy module bases is equal to zero, if it is equal to zero then this is syzygy is integrated. The final integration is then called the conservation law (sometimes known as first integrals).
 
 To use this algorithm, one needs to define your model as seen in the experiment code and then run the genpolconslaw function with the variables defined as one can observe in the experiment code.  
 
